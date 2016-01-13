@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "sandbox",
+  "main": "add.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luics/sandbox.git"
+  },
+  "author": "luics",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luics/sandbox/issues"
+  },
+  "homepage": "https://github.com/luics/sandbox#readme",
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "mocha": "~2.3.4"
+  }
+}
