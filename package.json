@@ -2,7 +2,6 @@
   "name": "sandbox",
   "version": "1.0.0",
   "description": "sandbox",
-  "main": "add.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test"
   },
@@ -11,7 +10,6 @@
     "url": "git+https://github.com/luics/sandbox.git"
   },
   "author": "luics",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/luics/sandbox/issues"
   },
