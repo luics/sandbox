@@ -24,11 +24,11 @@
     "chai": "^3.4.1"
   },
   "scripts": {
-    "pre-commit": "git config user.email && exit 1",
+    "precommit": "git config user.email && exit 1",
   },
   "precommit.silent": true,
-  "pre-commit": [
-    "pre-commit"
+  "precommit": [
+    "precommit"
   ],
   "license": "ISC"
 }
