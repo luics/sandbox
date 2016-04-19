@@ -2,9 +2,6 @@
   "name": "sandbox",
   "version": "1.0.0",
   "description": "sandbox",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luics/sandbox.git"
@@ -16,6 +13,22 @@
   "homepage": "https://github.com/luics/sandbox#readme",
   "devDependencies": {
     "chai": "~3.4.1",
-    "mocha": "~2.3.4"
-  }
+    "mocha": "~2.3.4",
+    "pre-commit": "^1.1.2"
+  },
+  "main": "pre-commit.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.1"
+  },
+  "scripts": {
+    "pre-commit": "git config user.email && exit 1",
+  },
+  "precommit.silent": true,
+  "pre-commit": [
+    "pre-commit"
+  ],
+  "license": "ISC"
 }
