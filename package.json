@@ -24,7 +24,7 @@
     "chai": "^3.4.1"
   },
   "scripts": {
-    "precommit": "git config user.email && exit 1",
+    "precommit": "git config user.email | grep -E 'alibaba-inc.com|taobao.com|tmall.com|1688.com' && echo 'Please set your github binded email! \nRun \"git config user.email your.email@address.com\" to set email.' && exit 1"
   },
   "precommit.silent": true,
   "precommit": [
